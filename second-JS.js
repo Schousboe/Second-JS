@@ -11,6 +11,10 @@ function revealShape(){
  box.style.visibility = "visible";
 }
 
+function revealColor(){
+ box.style.background = details.color;
+}
+
 function magicTrick(){
  details.disappear();
 }
